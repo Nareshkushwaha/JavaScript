@@ -1,12 +1,12 @@
 
- let a=30;
- let b=89;
-console.log(a+b);
-console.log(a-b);
-console.log(a*b);
-console.log(a/b);
-console.log(a*b);
-console.log(a**b);
+//  let a=30;
+//  let b=89;
+// console.log(a+b);
+// console.log(a-b);
+// console.log(a*b);
+// console.log(a/b);
+// console.log(a*b);
+// console.log(a**b);
 
 //**************************************/
 
@@ -14,6 +14,16 @@ console.log(a**b);
 //   let a=5;
 //   let b=2;
 //    console.log("a  =" ,a, " & b = ",b);
-//    a++ //6
 
-//    console.log("a =",a)
+//    console.log("a =",a++)//4 
+//    console.log(a++);
+
+//    ********************************************************
+
+// Assignment operator 
+
+  let a =5;
+  let b=2;
+
+   a-=4; //a =a**4;
+   console.log("a = ",a)//9

@@ -113,9 +113,63 @@
  
 //  console.log(str[8]);
 
-let sentence ='this is  temple  literle string';
-console.log(typeof sentence);
+// let sentence ='this is  temple  literle string';
+// console.log(typeof sentence);
 
 /// this is templet /string in java script
 
+// scap  method 
 
+//  let str="apna\ncollege";
+//   console.log(str.length);
+
+
+
+//String  method in  java script 
+
+//  let str="apna college"
+//  let newstr=str.toUpperCase();
+//  console.log(str);
+// console.log(newstr);  
+
+ 
+//this is second method to uppercase and lowercase string print 
+
+//  let str="APNA COLLEGE";
+//   str=str.toLowerCase();
+//   console.log(str);
+
+
+//THIS IS TRIM METHOD IN STRING 
+
+// let str="      APNCOLLEGE    ";
+// console.log(str.trim());
+
+ 
+
+//this is slice method of string  in java script 
+
+// let str="hello wrold  ";
+//  console.log(str.slice(3,8));
+
+//  let str1="apna";
+//   let  str2="college";
+
+//    let result=str1+123;  
+//     console.log(result); 
+
+//this is replace  method of string in java script 
+
+//  let   str="hello";
+// console.log(str.replaceAll ("lo", "mm"));
+
+//this is charAt  string 
+
+//  let str="i love js";
+//    console.log(str.charAt(3));
+
+     
+
+let str="ilovejs";
+ str=str.replace("i","S");
+  console.log(str);

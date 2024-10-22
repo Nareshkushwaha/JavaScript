@@ -63,45 +63,100 @@
 //   };
 
 
-function mul(a,b){
-     return a*b;
-}
+// function mul(a,b){
+//      return a*b;
+// }
 
- const arrymul=(a,b) =>{
-     console.log(a*b);
- };
+//  const arrymul=(a,b) =>{
+//      console.log(a*b);
+//  };
 
-//==================================================
- function div(a,b){
-     return a/b;
-}
+// //==================================================
+//  function div(a,b){
+//      return a/b;
+// }
 
- const arrydiv=(a,b) =>{
-     console.log(a/b);
- };
+//  const arrydiv=(a,b) =>{
+//      console.log(a/b);
+//  };
   
-//=================================================
- function mod(a,b){
-     return a%b;
-}
+// //=================================================
+//  function mod(a,b){
+//      return a%b;
+// }
 
- const arrymod=(a,b) =>{
-    //  console.log(a%b);
-    return a%b;
- };
+//  const arrymod=(a,b) =>{
+//     //  console.log(a%b);
+//     return a%b;
+//  };
 
- //==============================================================
+//  //==============================================================
 
- function mod(){
+//  function mod(){
 
- } 
+//  } 
 
-  const printhello =()=>   console.log("hello world");
-  
-
-
+//   const printhello =()=>   console.log("hello world");
   
 
+
+// function countVowels(str){
+//      let count=0;
+//       for(const char of str){
+//           if(char==="a"||
+//             char==="e"||
+//             char==="i"||
+//             char==="o"||
+//             char==="u"){
+//                count++;
+//             }
+//       }
+//       console.log(count);
+// }
+
+  
+
+
+// const countVow=(str)=>{
+//       let count=0;
+//       for(const char of str){
+//                     if(char==="a"||
+//                       char==="e"||
+//                       char==="i"||
+//                       char==="o"||
+//                       char==="u"){
+//                          count++;
+//                       }
+//                 }
+//                 return count;
+
+//  };
+
+//===============================================
+
+let n=prompt("enter a number");
+ let arr=[];
+  for(let i=1;i<=n;i++){
+     arr[i-1]=i;
+  }
+   console.log(arr);
+    
+
+   let sum = arr.reduce((prev,cur)=>{
+
+     return prev+cur;
+
+   });
+    console.log("sum =",sum);
+
+
+     let factorial=arr.reduce((res,curr)=>{
+      return res*curr;     
+     });
+
+      console.log(factorial);
+
+     
     </script>
 </body>
 </html> 

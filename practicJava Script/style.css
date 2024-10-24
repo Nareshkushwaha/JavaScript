@@ -1,0 +1,22 @@
+/* .heading{
+     background-color:  red;
+     color:blue;
+     /* text-decoration: line-through; */
+    /* }
+     body {
+         background-color:  aqua
+
+     }
+     button{
+    background-color: red;       
+     } */ 
+
+      .box{
+         height: 100px;
+         width: 100px;
+         border: 2px solid black;
+          margin: 5px ;
+           text-align: center;
+           background-color: aqua;
+           
+      }

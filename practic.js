@@ -59,3 +59,17 @@
     //   });
     //   console.log(out);
 //=====================================================================
+
+ let array =["hello ","kese","ho "];
+  console.log(array);
+   let array1=["i ","am ","fine ","and ","you"];
+    console.log(array1);
+
+     let array2=array1.concat(array);
+      console.log(array2);
+
+     let  marks=[4,5,6,8,8,9,9,9,0,4,3,,3,2,2,];
+      console.log(marks);  
+       marks[3]=9;
+        console.log(marks);
+        
